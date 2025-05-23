@@ -107,7 +107,7 @@ class FileDropArea(QWidget):
                 self,
                 "Select up to 15 files",
                 "",
-                "Documents (*.pdf *.docx);;All Files (*)"
+                "Documents (*.pdf *.docx *.jpg *.jpeg *.png *.bmp *.tiff);;All Files (*)"
             )
             if len(files) > 15:
                 files = files[:15]
